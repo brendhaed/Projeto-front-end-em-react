@@ -1,0 +1,90 @@
+
+
+h1,h2,h3{
+   font-size: 2.2rem;
+   font-family: arial;
+}
+
+body{
+	background-color: beige;
+}
+
+table, td, th{
+	border: 1px solid black;
+}
+table tr:first-child {
+	background-color: steelblue;
+	color:white;
+	font-size: 2.4rem;
+	border-collapse: separate;
+}
+
+table tr:nth-child(2n+1){
+background-color: grey;
+}
+table{
+
+	font-size:2.4rem ;
+	border-collapse: separate;
+}
+ul,ol{
+	padding-left: 3.2rem;
+}
+ul{
+	list-style:square;
+}
+ol{
+	list-style: upper-roman;
+}
+.boxes{
+	display: flex;
+	position: static;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+.box{
+	flex:33.33%;
+	color:white;
+	height: 100px;
+	width: 200px;
+	padding: 5px;
+	border:5px solid black;
+	display: inline-block;
+	background-color: seagreen;
+	margin: 20px;
+	border-radius: 4px;
+}
+img{
+	display: block;
+	height: 200px;
+	width: 450px;
+}
+.box:nth nth-child(2){
+position:static;
+}
+
+.conctact h2{
+top: 0px;
+position: sticky;
+background-color: steelblue;
+}
+
+[data-company="CCL"]{
+	background-color: steelblue;
+}
+@media scream and(min-width:1000px){
+.bg{
+	height:50vh ;
+}
+}
+
+@media scream and(min-width:768) and(max-width:999){
+.bg{
+	height:50vh ;
+}
+}
+@media print{
+	.bg{
+		display: none;
+	}
+}
