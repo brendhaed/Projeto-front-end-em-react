@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(44, 44, 44);
+    font-size: 25px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 70px;
+    color:antiquewhite;
+}
+#task-title-input{
+  border-radius: 5px;
+  height: 25px;
+  width: 250px;
+  font-family: "Zilla Slab", serif;
+}
+button{
+    border-radius: 50px;
+    border-width: 0.1px;
+    font-size: 15px;
+    font-family: "Zilla Slab", serif;
+    cursor:pointer;
+
+}
+#div-form{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+ul,li{
+    font-size: 20px;
+}
+h1{
+    border-right: 4px solid;
+    white-space: nowrap;
+    width: 17ch;
+    overflow: hidden;
+    animation: animatexto steps(17)1s, animaMarcador;
+}
+@keyframes animaMarcador{
+    50%{
+        border-right: transparent;
+    }
+}
+@keyframes animatexto{
+    0%{
+        width: 0;
+    }
+}
+   
