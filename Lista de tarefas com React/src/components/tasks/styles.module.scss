@@ -1,0 +1,58 @@
+.container{
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 7rem auto 0;
+
+    form{
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+
+        label{
+            font-size: 1rem;
+
+        }
+    }}
+
+        ul{
+            list-style: none;
+            margin-top: 1rem;
+        li{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            input{
+                height:1rem;
+                width: 1rem;
+            }
+            label{
+                font-size: 1rem;
+            }
+        }
+        }
+        
+        input{
+            height: 40px;
+            width: 100%;
+            padding: 0 0.5rem;
+            font-size: 1rem;
+        }
+    button{
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #314da6;
+        color: white;
+    }
+}
+
+.done{
+    text-decoration: line-through
+}
