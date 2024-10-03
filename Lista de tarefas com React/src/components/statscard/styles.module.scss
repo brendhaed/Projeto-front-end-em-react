@@ -1,0 +1,18 @@
+.stats_card{
+    background-color: #ccc;
+    color:black;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+
+    h2{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        line-height: 1;
+    }
+    span{
+        font-size: 4rem;
+        line-height: 1;
+    }
+}
